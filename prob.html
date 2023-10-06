@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Problemna</title>
+</head>
+<body>
+
+
+<h1>Relate um probelma</h1>
+<br>
+<hr>
+<div class="formulario-container">
+    <form action="processar_formulario.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+<br> 
+<br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"
+        placeholder="Digite seu email"
+      required>
+      
+<br>  
+<br>
+
+
+
+<label for="número">Número de telefone:</label>
+        <input type="tel" id="número" name="número"
+        placeholder="(xx) x xxxx-xxxx"
+         required>
+         
+         <br>
+         <br>
+         
+        <label for="idade">Diga a sua idade:</label>
+        <input type="tel" id="number" name="number"
+        placeholder="xx"
+         required>
+        <hr>
+        <br>
+        <br>
+       <h4>Diga seu gênero:</h4>  
+       <label for="masc">Masculino: </label>
+        <input type="radio" id="masc" name="genero"
+        value="masc" required>
+        
+        
+        <label for="fem">  Feminino:</label>
+        <input type="radio" id="fem" name="genero"
+        value="fem" required>
+        
+        <br>
+        
+        <label for="outros">    Outros:</label>
+        <input type="radio" id="outros" name="genero"
+        value="outros"  required>
+       
+       
+       <label for="não">  Prefiro não dizer:</label>
+        <input type="radio" id="não" name="genero"
+        value="não" required>
+
+        <br>
+        <br>
+        <hr>
+        <label for="comentario">Relate seu problema:</label>
+        <br>
+        <textarea id="comentario" name="comentario" rows="10"></textarea>
+
+
+        <br><br><br>
+        <a href="index.html">
+           <button>volte para o site inicial</button>
+        </a>
+        
+        
+    </body>
+    </html>
